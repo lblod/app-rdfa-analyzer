@@ -6,7 +6,7 @@
 
 <https://rdfa.info/play/>
    rdfa:usesVocabulary <http://data.vlaanderen.be/ns/besluit#> .
-<https://rdfa.info/play/#>
+<https://imported-document/20190102210000-notulen.ttl>
    rdf:type foaf:Document .
 <https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen>
    rdf:type <http://data.vlaanderen.be/ns/besluit#Zitting>;
