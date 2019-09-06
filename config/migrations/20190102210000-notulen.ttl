@@ -1,0 +1,239 @@
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdfa.info/play/>
+   rdfa:usesVocabulary <http://data.vlaanderen.be/ns/besluit#> .
+<https://rdfa.info/play/#>
+   rdf:type foaf:Document .
+<https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Zitting>;
+   <http://data.vlaanderen.be/ns/besluit#heeftNotulen> <https://rdfa.info/play/>;
+   dc:title """
+                Notulen
+                Raad voor maatschappelijk welzijn
+                02 januari 2019 21:00
+                02 januari 2019 21:00
+                02 januari 2019 22:00
+            """;
+   <http://data.vlaanderen.be/ns/besluit#isGehoudenDoor> <https://brasschaat.meetingburger.net/rmw>;
+   <http://data.vlaanderen.be/ns/besluit#geplandeStart> "2019-01-02T21:00:00"^^xsd:dateTime;
+   <http://www.w3.org/ns/prov#startedAtTime> "2019-01-02T21:00:00"^^xsd:dateTime;
+   <http://www.w3.org/ns/prov#endedAtTime> "2019-01-02T22:00:00"^^xsd:dateTime;
+   <http://www.w3.org/ns/prov#atlocation> <http://my-blank-node-1>;
+   <http://data.vlaanderen.be/ns/besluit#behandelt> <https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#c7d22e7c-3245-4b20-92b0-94b2cff73c91>;
+   <http://data.vlaanderen.be/ns/besluit#behandelt> <https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#058b323a-669f-41e4-802d-b0c63a1be9b6>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/01f053f0-473c-4b0c-9941-28ed43165c1e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/06fd8757-4b31-4fa9-8df3-2132f3a83355>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/0ae7f356-8aee-4f5c-9393-40ab9e1b5434>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/0badbee6-0420-4bb6-9acb-0f0ef5933731>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/1f4925b7-3764-4614-94cf-b78efc9195fa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/290783ba-98bc-4b45-ae51-5b48e3be95bb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/2a866b7c-635e-4ddd-ae15-b3d4e6cc0890>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/2b294739-f203-46de-ae9b-dcb89dfc1ed8>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/35819712-2285-475f-99ff-4bbc7916b10f>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/39d96295-a842-48d2-a982-700a5bf5505b>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/3e146ade-b53d-4c3c-bdff-4cad77caef48>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/4c0c102e-ec19-45a3-bb96-5eb03435227e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/4c1cf475-d9e2-424c-bbbb-1c019cd818c1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/5d2ab4eb-5736-4f4d-8744-1bda2700bfbb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/6601a184-1530-455e-a7af-2c8a212b5cf7>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/6b83f6df-1a22-41c0-831b-d95092aea808>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/7c4b0e0c-0fa6-49d6-a926-afd75c9b724c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/7d08f76f-b6d2-4a88-ac19-013f1a7cb3ef>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/8663adfc-2288-4d8b-b9fd-6e2ece92c4bb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/88bd0a80-3d92-4a7f-af04-ad3460d35f0d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/8cb3e274-7c0a-4899-b8a9-0c07f807cf02>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/a016a8da-ff42-4820-81b0-e33585dc54c3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/a083b933-fb1e-448c-b7ba-638d290422e2>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/a2222fb7-0b7e-4990-9a25-fe6210c051e0>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/a23292a5-a934-4a28-bc96-571da245a32a>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/affab600-4431-47e8-ae87-7f12a8c5422d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/bc40c480-45ce-4f27-9a61-7d76c8c62266>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/d4c7450a-0550-4a55-b577-b242e6a622be>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/d5d6f469-8fa7-4e86-8f83-3d2a12e1f568>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/f1264b1c-9fca-4219-9177-1c31397e4650>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/f3170c85-1b17-4d49-a0b2-638a06f6824e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/f7ea342d-fa47-46f4-aabe-d90040cee5c6>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/fb5e16f5-8952-4bee-ab7c-c47a24c7db08>;
+   <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter> <https://brasschaat.meetingburger.net/mandatarissen/0badbee6-0420-4bb6-9acb-0f0ef5933731>;
+   <http://data.vlaanderen.be/ns/besluit#heeftSecretaris> <https://brasschaat.meetingburger.net/mandatarissen/290783ba-98bc-4b45-ae51-5b48e3be95bb> .
+<https://brasschaat.meetingburger.net/rmw>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan> .
+<http://my-blank-node-1>
+   rdf:type <http://www.w3.org/ns/prov#Location> .
+<https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#c7d22e7c-3245-4b20-92b0-94b2cff73c91>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+   dc:title "  Verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst. Goedkeuring. ";
+   dc:description "  Verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst. Goedkeuring. ";
+   <http://data.vlaanderen.be/ns/besluit#geplandOpenbaar> "true"^^xsd:boolean .
+<https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#058b323a-669f-41e4-802d-b0c63a1be9b6>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+   dc:title "  Verkiezing van de leden van het bijzonder comité voor de sociale dienst. Goedkeuring. ";
+   dc:description "  Verkiezing van de leden van het bijzonder comité voor de sociale dienst. Goedkeuring. ";
+   <http://data.vlaanderen.be/ns/besluit#geplandOpenbaar> "true"^^xsd:boolean .
+<https://brasschaat.meetingburger.net/mandatarissen/01f053f0-473c-4b0c-9941-28ed43165c1e>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/06fd8757-4b31-4fa9-8df3-2132f3a83355>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/0ae7f356-8aee-4f5c-9393-40ab9e1b5434>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/0badbee6-0420-4bb6-9acb-0f0ef5933731>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/1f4925b7-3764-4614-94cf-b78efc9195fa>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/290783ba-98bc-4b45-ae51-5b48e3be95bb>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/2a866b7c-635e-4ddd-ae15-b3d4e6cc0890>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/2b294739-f203-46de-ae9b-dcb89dfc1ed8>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/35819712-2285-475f-99ff-4bbc7916b10f>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/39d96295-a842-48d2-a982-700a5bf5505b>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/3e146ade-b53d-4c3c-bdff-4cad77caef48>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/4c0c102e-ec19-45a3-bb96-5eb03435227e>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/4c1cf475-d9e2-424c-bbbb-1c019cd818c1>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/5d2ab4eb-5736-4f4d-8744-1bda2700bfbb>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/6601a184-1530-455e-a7af-2c8a212b5cf7>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/6b83f6df-1a22-41c0-831b-d95092aea808>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/7c4b0e0c-0fa6-49d6-a926-afd75c9b724c>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/7d08f76f-b6d2-4a88-ac19-013f1a7cb3ef>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/8663adfc-2288-4d8b-b9fd-6e2ece92c4bb>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/88bd0a80-3d92-4a7f-af04-ad3460d35f0d>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/8cb3e274-7c0a-4899-b8a9-0c07f807cf02>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/a016a8da-ff42-4820-81b0-e33585dc54c3>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/a083b933-fb1e-448c-b7ba-638d290422e2>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/a2222fb7-0b7e-4990-9a25-fe6210c051e0>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/a23292a5-a934-4a28-bc96-571da245a32a>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/affab600-4431-47e8-ae87-7f12a8c5422d>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/bc40c480-45ce-4f27-9a61-7d76c8c62266>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/d4c7450a-0550-4a55-b577-b242e6a622be>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/d5d6f469-8fa7-4e86-8f83-3d2a12e1f568>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/f1264b1c-9fca-4219-9177-1c31397e4650>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/f3170c85-1b17-4d49-a0b2-638a06f6824e>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/f7ea342d-fa47-46f4-aabe-d90040cee5c6>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/fb5e16f5-8952-4bee-ab7c-c47a24c7db08>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#puntbehandelingc7d22e7c-3245-4b20-92b0-94b2cff73c91>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+   <http://data.vlaanderen.be/ns/besluit#openbaar> "true"^^xsd:boolean;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/6601a184-1530-455e-a7af-2c8a212b5cf7>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a2222fb7-0b7e-4990-9a25-fe6210c051e0>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/88bd0a80-3d92-4a7f-af04-ad3460d35f0d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/290783ba-98bc-4b45-ae51-5b48e3be95bb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/8663adfc-2288-4d8b-b9fd-6e2ece92c4bb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/2b294739-f203-46de-ae9b-dcb89dfc1ed8>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/f3170c85-1b17-4d49-a0b2-638a06f6824e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a083b933-fb1e-448c-b7ba-638d290422e2>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/4c0c102e-ec19-45a3-bb96-5eb03435227e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/4c1cf475-d9e2-424c-bbbb-1c019cd818c1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/fb5e16f5-8952-4bee-ab7c-c47a24c7db08>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d5d6f469-8fa7-4e86-8f83-3d2a12e1f568>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/8cb3e274-7c0a-4899-b8a9-0c07f807cf02>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a23292a5-a934-4a28-bc96-571da245a32a>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d4c7450a-0550-4a55-b577-b242e6a622be>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/f7ea342d-fa47-46f4-aabe-d90040cee5c6>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/7d08f76f-b6d2-4a88-ac19-013f1a7cb3ef>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0badbee6-0420-4bb6-9acb-0f0ef5933731>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/1f4925b7-3764-4614-94cf-b78efc9195fa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/affab600-4431-47e8-ae87-7f12a8c5422d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0ae7f356-8aee-4f5c-9393-40ab9e1b5434>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/f1264b1c-9fca-4219-9177-1c31397e4650>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/35819712-2285-475f-99ff-4bbc7916b10f>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/01f053f0-473c-4b0c-9941-28ed43165c1e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a016a8da-ff42-4820-81b0-e33585dc54c3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/6b83f6df-1a22-41c0-831b-d95092aea808>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/2a866b7c-635e-4ddd-ae15-b3d4e6cc0890>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/39d96295-a842-48d2-a982-700a5bf5505b>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5d2ab4eb-5736-4f4d-8744-1bda2700bfbb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/bc40c480-45ce-4f27-9a61-7d76c8c62266>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/7c4b0e0c-0fa6-49d6-a926-afd75c9b724c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/06fd8757-4b31-4fa9-8df3-2132f3a83355>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/3e146ade-b53d-4c3c-bdff-4cad77caef48>;
+   <http://data.vlaanderen.be/ns/besluit#heeftSecretaris> <https://brasschaat.meetingburger.net/mandatarissen/290783ba-98bc-4b45-ae51-5b48e3be95bb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter> <https://brasschaat.meetingburger.net/mandatarissen/0badbee6-0420-4bb6-9acb-0f0ef5933731>;
+   dc:subject <https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#c7d22e7c-3245-4b20-92b0-94b2cff73c91>;
+   <http://www.w3.org/ns/prov#generated> <https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#puntbesluitc7d22e7c-3245-4b20-92b0-94b2cff73c91> .
+<https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#puntbesluitc7d22e7c-3245-4b20-92b0-94b2cff73c91>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Besluit>;
+   <http://data.europa.eu/eli/ontology#description> """  Verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst. Goedkeuring. - GOEDGEKEURD  Beslissing  Feiten en motiveringDe raad voor maatschappelijk welzijn verkiest een voorzitter van het bijzonder comité voor de sociale dienst. De voorzitter van het bijzonder comité voor de sociale dienst wordt verkozen op basis van een akte van voordracht, ondertekend door meer dan de helft van de verkozenen op de lijsten die aan de verkiezingen deelnamen. Om ontvankelijk te zijn, moet de akte van voordracht ook ondertekend zijn door een meerderheid van de personen die op dezelfde lijst als de voorgedragen kandidaat zijn verkozen.  De voorzitter wordt verkozen, hetzij onder de voorzitter of de leden van het vast bureau, hetzij onder de leden van de raad voor maatschappelijk welzijn. Op 19 december 2018 werd een akte van voordracht op naam van Karina Hans ingediend bij de algemeen directeur. De voorzitter dient na te gaan of de akte van voordracht ontvankelijk is. Is dat het geval, dan wordt de voorzitter van het bijzonder comité voor de sociale dienst verkozen verklaard. Karina Hans is bij haar verkiezing geen voorzitter of lid van het vast bureau. Zij wordt van rechtswege, vanaf haar eedaflegging, als schepen toegevoegd aan het college van burgemeester en schepenen.Ze zal worden uitgenodigd om, voor zij haar mandaat aanvaardt, de eed af te leggen in handen van de voorzitter van de raad voor maatschappelijk welzijn. Die eedaflegging geldt ook als eedaflegging voor haar mandaat als schepen.  Juridisch kaderArtikel 90 van het decreet lokaal bestuur. Financiële gevolgenEr zijn geen financiële gevolgen. BESLUIT eenparig: Art.1.- De voorzitter van de installatievergadering verklaart de akte van voordracht op naam van Karina Hans ontvankelijk.  Art.2.- Karina Hans wordt verkozen verklaard als voorzitter van het bijzonder comité voor de sociale dienst. Art.3.- Karina Hans legt volgende eed af in handen van de voorzitter van de raad voor maatschappelijk welzijn: \"Ik zweer de verplichtingen van mijn mandaat trouw na te komen." Art.4.-  Karina Hans wordt van rechtswege als schepen toegevoegd aan het college van burgemeester en schepenen.  """;
+   <http://data.europa.eu/eli/ontology#language> <http://publications.europa.eu/resource/authority/language/NLD>;
+   <http://data.europa.eu/eli/ontology#title> "Besluit";
+   <http://www.w3.org/ns/prov#value> """
+                                  Verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst. Goedkeuring. - GOEDGEKEURD  Beslissing  Feiten en motiveringDe raad voor maatschappelijk welzijn verkiest een voorzitter van het bijzonder comité voor de sociale dienst. De voorzitter van het bijzonder comité voor de sociale dienst wordt verkozen op basis van een akte van voordracht, ondertekend door meer dan de helft van de verkozenen op de lijsten die aan de verkiezingen deelnamen. Om ontvankelijk te zijn, moet de akte van voordracht ook ondertekend zijn door een meerderheid van de personen die op dezelfde lijst als de voorgedragen kandidaat zijn verkozen.  De voorzitter wordt verkozen, hetzij onder de voorzitter of de leden van het vast bureau, hetzij onder de leden van de raad voor maatschappelijk welzijn. Op 19 december 2018 werd een akte van voordracht op naam van Karina Hans ingediend bij de algemeen directeur. De voorzitter dient na te gaan of de akte van voordracht ontvankelijk is. Is dat het geval, dan wordt de voorzitter van het bijzonder comité voor de sociale dienst verkozen verklaard. Karina Hans is bij haar verkiezing geen voorzitter of lid van het vast bureau. Zij wordt van rechtswege, vanaf haar eedaflegging, als schepen toegevoegd aan het college van burgemeester en schepenen.Ze zal worden uitgenodigd om, voor zij haar mandaat aanvaardt, de eed af te leggen in handen van de voorzitter van de raad voor maatschappelijk welzijn. Die eedaflegging geldt ook als eedaflegging voor haar mandaat als schepen.  Juridisch kaderArtikel 90 van het decreet lokaal bestuur. Financiële gevolgenEr zijn geen financiële gevolgen. BESLUIT eenparig: Art.1.- De voorzitter van de installatievergadering verklaart de akte van voordracht op naam van Karina Hans ontvankelijk.  Art.2.- Karina Hans wordt verkozen verklaard als voorzitter van het bijzonder comité voor de sociale dienst. Art.3.- Karina Hans legt volgende eed af in handen van de voorzitter van de raad voor maatschappelijk welzijn: \"Ik zweer de verplichtingen van mijn mandaat trouw na te komen." Art.4.-  Karina Hans wordt van rechtswege als schepen toegevoegd aan het college van burgemeester en schepenen.
+                            """ .
+<https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#puntbehandeling058b323a-669f-41e4-802d-b0c63a1be9b6>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+   <http://data.vlaanderen.be/ns/besluit#openbaar> "true"^^xsd:boolean;
+   <http://data.vlaanderen.be/ns/besluit#gebeurtNa> <https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#c7d22e7c-3245-4b20-92b0-94b2cff73c91>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/4c0c102e-ec19-45a3-bb96-5eb03435227e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/7d08f76f-b6d2-4a88-ac19-013f1a7cb3ef>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/7c4b0e0c-0fa6-49d6-a926-afd75c9b724c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5d2ab4eb-5736-4f4d-8744-1bda2700bfbb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/6601a184-1530-455e-a7af-2c8a212b5cf7>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/8cb3e274-7c0a-4899-b8a9-0c07f807cf02>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0ae7f356-8aee-4f5c-9393-40ab9e1b5434>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/01f053f0-473c-4b0c-9941-28ed43165c1e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a2222fb7-0b7e-4990-9a25-fe6210c051e0>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/bc40c480-45ce-4f27-9a61-7d76c8c62266>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/affab600-4431-47e8-ae87-7f12a8c5422d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/f7ea342d-fa47-46f4-aabe-d90040cee5c6>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/39d96295-a842-48d2-a982-700a5bf5505b>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/2b294739-f203-46de-ae9b-dcb89dfc1ed8>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a083b933-fb1e-448c-b7ba-638d290422e2>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/06fd8757-4b31-4fa9-8df3-2132f3a83355>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/2a866b7c-635e-4ddd-ae15-b3d4e6cc0890>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/3e146ade-b53d-4c3c-bdff-4cad77caef48>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/8663adfc-2288-4d8b-b9fd-6e2ece92c4bb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/fb5e16f5-8952-4bee-ab7c-c47a24c7db08>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a23292a5-a934-4a28-bc96-571da245a32a>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/4c1cf475-d9e2-424c-bbbb-1c019cd818c1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/f3170c85-1b17-4d49-a0b2-638a06f6824e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/f1264b1c-9fca-4219-9177-1c31397e4650>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0badbee6-0420-4bb6-9acb-0f0ef5933731>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/6b83f6df-1a22-41c0-831b-d95092aea808>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/88bd0a80-3d92-4a7f-af04-ad3460d35f0d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d4c7450a-0550-4a55-b577-b242e6a622be>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d5d6f469-8fa7-4e86-8f83-3d2a12e1f568>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/1f4925b7-3764-4614-94cf-b78efc9195fa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/290783ba-98bc-4b45-ae51-5b48e3be95bb>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/35819712-2285-475f-99ff-4bbc7916b10f>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a016a8da-ff42-4820-81b0-e33585dc54c3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter> <https://brasschaat.meetingburger.net/mandatarissen/0badbee6-0420-4bb6-9acb-0f0ef5933731>;
+   <http://data.vlaanderen.be/ns/besluit#heeftSecretaris> <https://brasschaat.meetingburger.net/mandatarissen/290783ba-98bc-4b45-ae51-5b48e3be95bb>;
+   dc:subject <https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#058b323a-669f-41e4-802d-b0c63a1be9b6>;
+   <http://www.w3.org/ns/prov#generated> <https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#puntbesluit058b323a-669f-41e4-802d-b0c63a1be9b6> .
+<https://brasschaat.meetingburger.net/rmw/d688a601-a342-4d6c-9d3a-63fadeb27206/notulen#puntbesluit058b323a-669f-41e4-802d-b0c63a1be9b6>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Besluit>;
+   <http://data.europa.eu/eli/ontology#description> """  Verkiezing van de leden van het bijzonder comité voor de sociale dienst. Goedkeuring. - GOEDGEKEURD  Zittingsverslag Raadslid Hoegaerts vraagt om ook de einddatum van het mandaat van Mieke De Bats, zoals voorzien in de akte van voordracht, te vermelden in de notulen. Voorzitter Versompel antwoordt dat dit zal worden opgenomen.Beslissing  Feiten en motiveringHet bijzonder comité voor de sociale dienst bestaat, de voorzitter niet inbegrepen, uit acht leden voor een raad voor maatschappelijk welzijn.  Het aantal leden van het bijzonder comité voor de sociale dienst dat wordt toegewezen aan de verschillende lijsten die aan de lokale verkiezingen hebben deelgenomen, wordt bepaald naar verhouding van het aantal zetels waarover elke lijst binnen de raad voor maatschappelijk welzijn beschikt. De zetels worden verdeeld door het aantal zetels van het bijzonder comité voor de sociale dienst te delen door het aantal leden van de raad voor maatschappelijk welzijn, vermenigvuldigd met het aantal zetels waarover elke lijst of groep van lijsten binnen de raad beschikt. Het aantal eenheden van het resultaat van die bewerking geeft het aantal rechtstreeks verworven zetels aan. De algemeen directeur heeft geen verklaringen van lijstverbinding ontvangen. Hij heeft de zetelverdeling van het bijzonder comité sociale dienst als volgt vastgesteld:•          N-VA: 4 zetels•          CD&V: 1 zetel•          Brasschaat 2012: 1 zetel•          Vlaams belang: 1 zetel•          Open VLD: 1 zetel De leden en kandidaat-opvolgers van het bijzonder comité voor de sociale dienst worden schriftelijk voorgedragen door de verkozenen voor de gemeenteraad. Uiterlijk acht dagen voor de installatievergadering van de gemeenteraad bezorgen de verkozenen de voordrachtsakten voor de leden van het bijzonder comité voor de sociale dienst, vermeld in het eerste lid, aan de algemeen directeur. De algemeen directeur bezorgt een afschrift van de akten aan de voorzitter van de raad voor maatschappelijk welzijn. De verkiezing van de leden van het bijzonder comité voor de sociale dienst vindt plaats in openbare zitting, tijdens de vergadering van de raad voor maatschappelijk welzijn, aansluitend op de installatievergadering van de gemeenteraad. De voorzitter van de raad voor maatschappelijk welzijn gaat na of de voordrachtsakten ontvankelijk zijn overeenkomstig de voorwaarden. In voorkomend geval worden de voorgedragen kandidaat-leden en hun opvolgers verkozen verklaard. Het bijzonder comité voor de sociale dienst bestaat uit personen van verschillend geslacht. Als het bijzonder comité voor de sociale dienst niet rechtsgeldig blijkt te zijn samengesteld overeenkomstig het eerste lid, wordt de oudste kandidaat vervangen door de eerstvolgende opvolger van het andere geslacht die in de voordrachtsakte is vermeld. De verkozen leden van het bijzonder comité voor de sociale dienst van wie de geloofsbrieven door de raad voor maatschappelijk welzijn zijn goedgekeurd, leggen, voor ze hun mandaat aanvaarden, de volgende eed af in handen van de voorzitter van de raad voor maatschappelijk welzijn: \"Ik zweer de verplichtingen van mijn mandaat trouw na te komen.". Juridisch kaderArtikel 87 en volgende van het decreet lokaal bestuur. Financiële gevolgenEr zijn geen financiële gevolgen. BESLUIT eenparig: Art.1.- De voorzitter verklaart de aktes van voordracht ontvankelijk. Volgende personen worden verkozen verklaard als lid van het bijzonder comité voor de sociale dienst.•          Erwin Callens◦          eerste opvolger Christine Huybrechts◦          tweede opvolger Daniella Lamberts•          Els Feremans◦          eerste opvolger Christine Huybrechts◦          tweede opvolger Daniella Lamberts•          Karin Beyers◦          eerste opvolger Christine Huybrechts◦          tweede opvolger Daniella Lamberts•          Hendrik De Maeyer◦          eerste opvolger Christine Huybrechts◦          tweede opvolger Daniella Lamberts•          Anne Van Aperen (einddatum van het mandaat is 31 december 2021)◦          eerste opvolger Barbara Ophoff•          Sven Simons◦          eerste opvolger Ineke Brückner◦          tweede opvolger Ellen Somers•          Ingeborg Hermans◦          eerste opvolger Johan Caluwé◦          tweede opvolger Hugo Dirks•          Maria De Bats (einddatum van het mandaat is 2 januari 2022)◦          eerste opvolger  Josselyne Hansens◦          tweede opvolger Ellen Samyn Art.2.- De geloofsbrieven van volgende personen worden goedgekeurd•          Erwin Callens•          Els Feremans•          Karin Beyers•          Hendrik De Maeyer•          Anne Van Aperen•          Sven Simons•          Ingeborg Hermans•          Maria De Bats Art.3.- De verkozen leden van het bijzonder comité voor de sociale dienst van wie de geloofsbrieven door de raad voor maatschappelijk welzijn zijn goedgekeurd, leggen, voor ze hun mandaat aanvaarden, de volgende eed af in handen van de voorzitter van de raad voor maatschappelijk welzijn: "Ik zweer de verplichtingen van mijn mandaat trouw na te komen.".   """;
+   <http://data.europa.eu/eli/ontology#language> <http://publications.europa.eu/resource/authority/language/NLD>;
+   <http://data.europa.eu/eli/ontology#title> "Besluit";
+   <http://www.w3.org/ns/prov#value> """
+                                  Verkiezing van de leden van het bijzonder comité voor de sociale dienst. Goedkeuring. - GOEDGEKEURD  Zittingsverslag Raadslid Hoegaerts vraagt om ook de einddatum van het mandaat van Mieke De Bats, zoals voorzien in de akte van voordracht, te vermelden in de notulen. Voorzitter Versompel antwoordt dat dit zal worden opgenomen.Beslissing  Feiten en motiveringHet bijzonder comité voor de sociale dienst bestaat, de voorzitter niet inbegrepen, uit acht leden voor een raad voor maatschappelijk welzijn.  Het aantal leden van het bijzonder comité voor de sociale dienst dat wordt toegewezen aan de verschillende lijsten die aan de lokale verkiezingen hebben deelgenomen, wordt bepaald naar verhouding van het aantal zetels waarover elke lijst binnen de raad voor maatschappelijk welzijn beschikt. De zetels worden verdeeld door het aantal zetels van het bijzonder comité voor de sociale dienst te delen door het aantal leden van de raad voor maatschappelijk welzijn, vermenigvuldigd met het aantal zetels waarover elke lijst of groep van lijsten binnen de raad beschikt. Het aantal eenheden van het resultaat van die bewerking geeft het aantal rechtstreeks verworven zetels aan. De algemeen directeur heeft geen verklaringen van lijstverbinding ontvangen. Hij heeft de zetelverdeling van het bijzonder comité sociale dienst als volgt vastgesteld:•          N-VA: 4 zetels•          CD&V: 1 zetel•          Brasschaat 2012: 1 zetel•          Vlaams belang: 1 zetel•          Open VLD: 1 zetel De leden en kandidaat-opvolgers van het bijzonder comité voor de sociale dienst worden schriftelijk voorgedragen door de verkozenen voor de gemeenteraad. Uiterlijk acht dagen voor de installatievergadering van de gemeenteraad bezorgen de verkozenen de voordrachtsakten voor de leden van het bijzonder comité voor de sociale dienst, vermeld in het eerste lid, aan de algemeen directeur. De algemeen directeur bezorgt een afschrift van de akten aan de voorzitter van de raad voor maatschappelijk welzijn. De verkiezing van de leden van het bijzonder comité voor de sociale dienst vindt plaats in openbare zitting, tijdens de vergadering van de raad voor maatschappelijk welzijn, aansluitend op de installatievergadering van de gemeenteraad. De voorzitter van de raad voor maatschappelijk welzijn gaat na of de voordrachtsakten ontvankelijk zijn overeenkomstig de voorwaarden. In voorkomend geval worden de voorgedragen kandidaat-leden en hun opvolgers verkozen verklaard. Het bijzonder comité voor de sociale dienst bestaat uit personen van verschillend geslacht. Als het bijzonder comité voor de sociale dienst niet rechtsgeldig blijkt te zijn samengesteld overeenkomstig het eerste lid, wordt de oudste kandidaat vervangen door de eerstvolgende opvolger van het andere geslacht die in de voordrachtsakte is vermeld. De verkozen leden van het bijzonder comité voor de sociale dienst van wie de geloofsbrieven door de raad voor maatschappelijk welzijn zijn goedgekeurd, leggen, voor ze hun mandaat aanvaarden, de volgende eed af in handen van de voorzitter van de raad voor maatschappelijk welzijn: \"Ik zweer de verplichtingen van mijn mandaat trouw na te komen.". Juridisch kaderArtikel 87 en volgende van het decreet lokaal bestuur. Financiële gevolgenEr zijn geen financiële gevolgen. BESLUIT eenparig: Art.1.- De voorzitter verklaart de aktes van voordracht ontvankelijk. Volgende personen worden verkozen verklaard als lid van het bijzonder comité voor de sociale dienst.•          Erwin Callens◦          eerste opvolger Christine Huybrechts◦          tweede opvolger Daniella Lamberts•          Els Feremans◦          eerste opvolger Christine Huybrechts◦          tweede opvolger Daniella Lamberts•          Karin Beyers◦          eerste opvolger Christine Huybrechts◦          tweede opvolger Daniella Lamberts•          Hendrik De Maeyer◦          eerste opvolger Christine Huybrechts◦          tweede opvolger Daniella Lamberts•          Anne Van Aperen (einddatum van het mandaat is 31 december 2021)◦          eerste opvolger Barbara Ophoff•          Sven Simons◦          eerste opvolger Ineke Brückner◦          tweede opvolger Ellen Somers•          Ingeborg Hermans◦          eerste opvolger Johan Caluwé◦          tweede opvolger Hugo Dirks•          Maria De Bats (einddatum van het mandaat is 2 januari 2022)◦          eerste opvolger  Josselyne Hansens◦          tweede opvolger Ellen Samyn Art.2.- De geloofsbrieven van volgende personen worden goedgekeurd•          Erwin Callens•          Els Feremans•          Karin Beyers•          Hendrik De Maeyer•          Anne Van Aperen•          Sven Simons•          Ingeborg Hermans•          Maria De Bats Art.3.- De verkozen leden van het bijzonder comité voor de sociale dienst van wie de geloofsbrieven door de raad voor maatschappelijk welzijn zijn goedgekeurd, leggen, voor ze hun mandaat aanvaarden, de volgende eed af in handen van de voorzitter van de raad voor maatschappelijk welzijn: "Ik zweer de verplichtingen van mijn mandaat trouw na te komen.".
+                            """ .

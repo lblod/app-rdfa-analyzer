@@ -1,0 +1,302 @@
+@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdfa.info/play/>
+   rdfa:usesVocabulary <http://data.vlaanderen.be/ns/besluit#> .
+<https://rdfa.info/play/#>
+   rdf:type foaf:Document .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Zitting>;
+   <http://data.vlaanderen.be/ns/besluit#heeftNotulen> <https://rdfa.info/play/>;
+   dc:title """
+                Notulen
+                Raad voor maatschappelijk welzijn
+                29 april 2019 21:00
+                29 april 2019 22:27
+                29 april 2019 22:37
+            """;
+   <http://data.vlaanderen.be/ns/besluit#isGehoudenDoor> <https://brasschaat.meetingburger.net/rmw>;
+   <http://data.vlaanderen.be/ns/besluit#geplandeStart> "2019-04-29T21:00:00"^^xsd:dateTime;
+   <http://www.w3.org/ns/prov#startedAtTime> "2019-04-29T22:27:00"^^xsd:dateTime;
+   <http://www.w3.org/ns/prov#endedAtTime> "2019-04-29T22:37:00"^^xsd:dateTime;
+   <http://www.w3.org/ns/prov#atlocation> <http://my-blank-node-1>;
+   <http://data.vlaanderen.be/ns/besluit#behandelt> <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#b7f4d7a8-cd98-413f-8063-8dded27c60c7>;
+   <http://data.vlaanderen.be/ns/besluit#behandelt> <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#b61d7a6f-f164-4511-990d-81d18326f811>;
+   <http://data.vlaanderen.be/ns/besluit#behandelt> <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#931d14d1-3685-4f1d-a57d-b726212b4ffd>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/0000866e-7e57-46de-ac76-7ef23a5f550d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/0a1e4281-07ec-427a-af03-326aaee3b63c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/1668700f-8937-4085-aaa5-ca10c09f5270>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/178bfe46-d884-4014-834f-8e65ca6a7cfa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/1f2c1571-724a-4671-918f-3e92d447cdea>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/24bee8db-2ef4-485d-b143-4fa3d7c76fb3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/262ec05d-32f5-4170-8d25-e468f340cd23>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/2ffbe33e-0fb4-45de-b82b-ddadc970cca9>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/3768d7ba-365d-4522-9e2c-9524bc7e3bee>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/4b87b14e-5508-4e45-95d3-95a4406d8fb1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/5367c931-1d71-45b1-b342-8a1703815e44>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/59296cc7-de4d-4b65-9937-667cea7381d1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/5bf481ba-b8c5-4108-b281-e224fa808cf6>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/5f3e3ad5-7414-4616-a084-a4255b42dcb9>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/61a1f61e-daeb-430b-bd55-19b1521175ca>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/68836e20-2ef4-4995-b53f-8c7e88f4341c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/6a772b82-63cc-4e28-92ab-37d5542e2580>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/8210a3ce-9f66-4c70-bb3b-74e4a75588d1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/9b5b0c56-bf65-4700-9c7a-d55e35ff47e2>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/a1985d63-4fbe-4d1b-b045-1e49a03ff003>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/a34117a6-ad93-4cea-bd2b-d5df077f4dbc>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/a9934baf-7545-476b-b320-d75a41df84ae>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/b0f8d54c-b544-44ca-9fdd-9a603abd1fc8>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/b1f7951b-ca23-415c-848a-054eedadc7ae>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/bb65c5a1-c674-47fd-b282-1b351a21f834>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/cd869d11-321e-4995-9b2a-a5bc634db759>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/d249a473-13a9-4c98-bc9f-9e36f45831cd>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/d34b0e9f-4e17-4614-a659-593d1760c7f3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/d63f1679-930b-43a4-a45b-6bbdbdc8a6fa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/e11f34d3-7bb5-419f-b93e-f9fc62d7119c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/e63fd383-d732-4194-adff-77ffd4b84737>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/efb0b071-b392-467e-9830-90e4aa11a74e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezigeBijStart> <https://brasschaat.meetingburger.net/mandatarissen/fbc9805c-e5b4-43fc-9c54-392e769ed699>;
+   <http://data.vlaanderen.be/ns/besluit#heeftSecretaris> <https://brasschaat.meetingburger.net/mandatarissen/1668700f-8937-4085-aaa5-ca10c09f5270>;
+   <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter> <https://brasschaat.meetingburger.net/mandatarissen/178bfe46-d884-4014-834f-8e65ca6a7cfa> .
+<https://brasschaat.meetingburger.net/rmw>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Bestuursorgaan> .
+<http://my-blank-node-1>
+   rdf:type <http://www.w3.org/ns/prov#Location> .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#b7f4d7a8-cd98-413f-8063-8dded27c60c7>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+   dc:title "  Goedkeuring notulen en zittingsverslag van de zitting van 25 maart 2019. ";
+   dc:description "  Goedkeuring notulen en zittingsverslag van de zitting van 25 maart 2019. ";
+   <http://data.vlaanderen.be/ns/besluit#geplandOpenbaar> "true"^^xsd:boolean .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#b61d7a6f-f164-4511-990d-81d18326f811>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+   dc:title "  De Voorkempen. Aanduiding bestuurder. Goedkeuring. ";
+   dc:description "  De Voorkempen. Aanduiding bestuurder. Goedkeuring. ";
+   <http://data.vlaanderen.be/ns/besluit#geplandOpenbaar> "true"^^xsd:boolean .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#931d14d1-3685-4f1d-a57d-b726212b4ffd>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Agendapunt>;
+   dc:title "  Stand van zaken organisatiebeheersing. Kennisneming. ";
+   dc:description "  Stand van zaken organisatiebeheersing. Kennisneming. ";
+   <http://data.vlaanderen.be/ns/besluit#geplandOpenbaar> "true"^^xsd:boolean .
+<https://brasschaat.meetingburger.net/mandatarissen/0000866e-7e57-46de-ac76-7ef23a5f550d>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/0a1e4281-07ec-427a-af03-326aaee3b63c>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/1668700f-8937-4085-aaa5-ca10c09f5270>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/178bfe46-d884-4014-834f-8e65ca6a7cfa>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/1f2c1571-724a-4671-918f-3e92d447cdea>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/24bee8db-2ef4-485d-b143-4fa3d7c76fb3>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/262ec05d-32f5-4170-8d25-e468f340cd23>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/2ffbe33e-0fb4-45de-b82b-ddadc970cca9>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/3768d7ba-365d-4522-9e2c-9524bc7e3bee>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/4b87b14e-5508-4e45-95d3-95a4406d8fb1>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/5367c931-1d71-45b1-b342-8a1703815e44>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/59296cc7-de4d-4b65-9937-667cea7381d1>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/5bf481ba-b8c5-4108-b281-e224fa808cf6>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/5f3e3ad5-7414-4616-a084-a4255b42dcb9>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/61a1f61e-daeb-430b-bd55-19b1521175ca>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/68836e20-2ef4-4995-b53f-8c7e88f4341c>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/6a772b82-63cc-4e28-92ab-37d5542e2580>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/8210a3ce-9f66-4c70-bb3b-74e4a75588d1>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/9b5b0c56-bf65-4700-9c7a-d55e35ff47e2>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/a1985d63-4fbe-4d1b-b045-1e49a03ff003>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/a34117a6-ad93-4cea-bd2b-d5df077f4dbc>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/a9934baf-7545-476b-b320-d75a41df84ae>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/b0f8d54c-b544-44ca-9fdd-9a603abd1fc8>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/b1f7951b-ca23-415c-848a-054eedadc7ae>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/bb65c5a1-c674-47fd-b282-1b351a21f834>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/cd869d11-321e-4995-9b2a-a5bc634db759>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/d249a473-13a9-4c98-bc9f-9e36f45831cd>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/d34b0e9f-4e17-4614-a659-593d1760c7f3>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/d63f1679-930b-43a4-a45b-6bbdbdc8a6fa>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/e11f34d3-7bb5-419f-b93e-f9fc62d7119c>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/e63fd383-d732-4194-adff-77ffd4b84737>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/efb0b071-b392-467e-9830-90e4aa11a74e>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/mandatarissen/fbc9805c-e5b4-43fc-9c54-392e769ed699>
+   rdf:type <http://data.vlaanderen.be/ns/mandaat#Mandataris> .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#puntbehandelingb7f4d7a8-cd98-413f-8063-8dded27c60c7>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+   <http://data.vlaanderen.be/ns/besluit#openbaar> "true"^^xsd:boolean;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5367c931-1d71-45b1-b342-8a1703815e44>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/bb65c5a1-c674-47fd-b282-1b351a21f834>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/fbc9805c-e5b4-43fc-9c54-392e769ed699>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d34b0e9f-4e17-4614-a659-593d1760c7f3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/24bee8db-2ef4-485d-b143-4fa3d7c76fb3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/68836e20-2ef4-4995-b53f-8c7e88f4341c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/59296cc7-de4d-4b65-9937-667cea7381d1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0a1e4281-07ec-427a-af03-326aaee3b63c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/e11f34d3-7bb5-419f-b93e-f9fc62d7119c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5f3e3ad5-7414-4616-a084-a4255b42dcb9>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/efb0b071-b392-467e-9830-90e4aa11a74e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0000866e-7e57-46de-ac76-7ef23a5f550d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/b0f8d54c-b544-44ca-9fdd-9a603abd1fc8>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/61a1f61e-daeb-430b-bd55-19b1521175ca>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a1985d63-4fbe-4d1b-b045-1e49a03ff003>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/6a772b82-63cc-4e28-92ab-37d5542e2580>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/178bfe46-d884-4014-834f-8e65ca6a7cfa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/e63fd383-d732-4194-adff-77ffd4b84737>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/9b5b0c56-bf65-4700-9c7a-d55e35ff47e2>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a34117a6-ad93-4cea-bd2b-d5df077f4dbc>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/8210a3ce-9f66-4c70-bb3b-74e4a75588d1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a9934baf-7545-476b-b320-d75a41df84ae>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/b1f7951b-ca23-415c-848a-054eedadc7ae>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/1668700f-8937-4085-aaa5-ca10c09f5270>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/cd869d11-321e-4995-9b2a-a5bc634db759>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/3768d7ba-365d-4522-9e2c-9524bc7e3bee>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d249a473-13a9-4c98-bc9f-9e36f45831cd>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/262ec05d-32f5-4170-8d25-e468f340cd23>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/1f2c1571-724a-4671-918f-3e92d447cdea>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d63f1679-930b-43a4-a45b-6bbdbdc8a6fa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/4b87b14e-5508-4e45-95d3-95a4406d8fb1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/2ffbe33e-0fb4-45de-b82b-ddadc970cca9>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5bf481ba-b8c5-4108-b281-e224fa808cf6>;
+   <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter> <https://brasschaat.meetingburger.net/mandatarissen/178bfe46-d884-4014-834f-8e65ca6a7cfa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftSecretaris> <https://brasschaat.meetingburger.net/mandatarissen/1668700f-8937-4085-aaa5-ca10c09f5270>;
+   dc:subject <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#b7f4d7a8-cd98-413f-8063-8dded27c60c7>;
+   <http://www.w3.org/ns/prov#generated> <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#puntbesluitb7f4d7a8-cd98-413f-8063-8dded27c60c7> .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#puntbesluitb7f4d7a8-cd98-413f-8063-8dded27c60c7>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Besluit>;
+   <http://data.europa.eu/eli/ontology#description> "  1 Goedkeuring notulen en zittingsverslag van de zitting van 25 maart 2019. - GOEDGEKEURD  Beslissing  Feiten en motiveringOp 25 maart 2019 vond een zitting van de raad voor maatschappelijk welzijn plaats. Aan de raad wordt gevraagd het verslag goed te keuren. Juridisch kaderArtikel 32 van het decreet lokaal bestuur. BESLUIT eenparig: Art.1.- De notulen en het zittingsverslag van de zitting van 25 maart 2019 worden goedgekeurd.  ";
+   <http://data.europa.eu/eli/ontology#language> <http://publications.europa.eu/resource/authority/language/NLD>;
+   <http://data.europa.eu/eli/ontology#title> "Besluit";
+   <http://www.w3.org/ns/prov#value> """
+                                  1 Goedkeuring notulen en zittingsverslag van de zitting van 25 maart 2019. - GOEDGEKEURD  Beslissing  Feiten en motiveringOp 25 maart 2019 vond een zitting van de raad voor maatschappelijk welzijn plaats. Aan de raad wordt gevraagd het verslag goed te keuren. Juridisch kaderArtikel 32 van het decreet lokaal bestuur. BESLUIT eenparig: Art.1.- De notulen en het zittingsverslag van de zitting van 25 maart 2019 worden goedgekeurd.
+                            """ .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#puntbehandelingb61d7a6f-f164-4511-990d-81d18326f811>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+   <http://data.vlaanderen.be/ns/besluit#openbaar> "true"^^xsd:boolean;
+   <http://data.vlaanderen.be/ns/besluit#gebeurtNa> <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#b7f4d7a8-cd98-413f-8063-8dded27c60c7>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/8210a3ce-9f66-4c70-bb3b-74e4a75588d1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/24bee8db-2ef4-485d-b143-4fa3d7c76fb3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/178bfe46-d884-4014-834f-8e65ca6a7cfa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/59296cc7-de4d-4b65-9937-667cea7381d1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5bf481ba-b8c5-4108-b281-e224fa808cf6>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/b0f8d54c-b544-44ca-9fdd-9a603abd1fc8>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/bb65c5a1-c674-47fd-b282-1b351a21f834>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/fbc9805c-e5b4-43fc-9c54-392e769ed699>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/68836e20-2ef4-4995-b53f-8c7e88f4341c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0a1e4281-07ec-427a-af03-326aaee3b63c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/e11f34d3-7bb5-419f-b93e-f9fc62d7119c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d34b0e9f-4e17-4614-a659-593d1760c7f3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/6a772b82-63cc-4e28-92ab-37d5542e2580>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5367c931-1d71-45b1-b342-8a1703815e44>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/2ffbe33e-0fb4-45de-b82b-ddadc970cca9>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/1f2c1571-724a-4671-918f-3e92d447cdea>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/b1f7951b-ca23-415c-848a-054eedadc7ae>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a34117a6-ad93-4cea-bd2b-d5df077f4dbc>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0000866e-7e57-46de-ac76-7ef23a5f550d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/3768d7ba-365d-4522-9e2c-9524bc7e3bee>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a9934baf-7545-476b-b320-d75a41df84ae>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/9b5b0c56-bf65-4700-9c7a-d55e35ff47e2>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/cd869d11-321e-4995-9b2a-a5bc634db759>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/efb0b071-b392-467e-9830-90e4aa11a74e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/262ec05d-32f5-4170-8d25-e468f340cd23>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5f3e3ad5-7414-4616-a084-a4255b42dcb9>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/e63fd383-d732-4194-adff-77ffd4b84737>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/4b87b14e-5508-4e45-95d3-95a4406d8fb1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d63f1679-930b-43a4-a45b-6bbdbdc8a6fa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/61a1f61e-daeb-430b-bd55-19b1521175ca>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/1668700f-8937-4085-aaa5-ca10c09f5270>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a1985d63-4fbe-4d1b-b045-1e49a03ff003>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d249a473-13a9-4c98-bc9f-9e36f45831cd>;
+   <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter> <https://brasschaat.meetingburger.net/mandatarissen/178bfe46-d884-4014-834f-8e65ca6a7cfa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftSecretaris> <https://brasschaat.meetingburger.net/mandatarissen/1668700f-8937-4085-aaa5-ca10c09f5270>;
+   dc:subject <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#b61d7a6f-f164-4511-990d-81d18326f811>;
+   <http://www.w3.org/ns/prov#generated> <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#puntbesluitb61d7a6f-f164-4511-990d-81d18326f811>;
+   <http://data.europa.eu/eli/ontology#cites> <https://brasschaat.meetingburger.net/UserData/MeetingBurger/Bijlagen/f4ff657c-7096-4483-9925-1fdd4b5d36ab/b61d7a6f-f164-4511-990d-81d18326f811/Uitnodiging_gemeente.pdf>;
+   <http://data.europa.eu/eli/ontology#cites> <https://brasschaat.meetingburger.net/UserData/MeetingBurger/Bijlagen/f4ff657c-7096-4483-9925-1fdd4b5d36ab/b61d7a6f-f164-4511-990d-81d18326f811/Uitnodiging_OCMW.pdf> .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#puntbesluitb61d7a6f-f164-4511-990d-81d18326f811>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Besluit>;
+   <http://data.europa.eu/eli/ontology#description> "  2 De Voorkempen. Aanduiding bestuurder. Goedkeuring. - GOEDGEKEURD  Beslissing  Feiten en motiveringGemeente en OCMW Brasschaat zijn lid van de sociale huisvestingsmaatschappij CVBA De Voorkempen - HE. Gemeente en OCMW zijn vertegenwoordigd in de raad van bestuur van De Voorkempen HE. Op 2 mei 2019 is er een algemene vergadering van De Voorkempen HE. De agenda ziet eruit als volgt:1. Verwelkoming en voorwoord2. Kennisname van het verslag van de leden van de raad van bestuur aan de aandeelhouders over het werkjaar 2018;•          a. Toelichting door directeur•          b. Toelichting door SBB3. Kennisname van het verslag van de commissaris;4. Goedkeuring verlenen aan de jaarrekening;5. Goedkeuring verlenen aan de resultatenverwerking;6. Kwijting verlenen aan de commissaris;7. Ontheffing verlenen aan de bestuurders voor hun opdracht gedurende het boekjaar 2018;8. Herbenoemen van één vervallen mandaat:•          Rudi Van Loon, Particulier•          Ludo De Roover, Particulier9. Benoemen van nieuwe bestuurders voor:•          Gemeente en OCMW Brasschaat: nog in te vullen•          Gemeente en OCMW Brecht: dhr. Daan de Veuster•          Gemeente en OCMW Schilde: dhr. Hendrik Bellens•          Gemeente en OCMW Wuustwezel: mevr. Mai Van Thillo•          Gemeente en OCMW Zoersel: mevr. Cindy Van Paesschen•          Provincie Antwerpen: dhr. Koen Palinckx Op 25 februari besliste de raad om nog geen vertegenwoordiger namens het lokaal bestuur Brasschaat voor te stellen. Het is nodig om een vertegenwoordiger namens gemeente en OCMW Brasschaat voor te stellen voor de algemene vergadering en een kandidaat bestuurder en de agendapunten van de vergadering goed te keuren. Juridisch kaderArtikel 386 van het Decreet Lokaal Bestuur. Financiële gevolgenEr zijn geen financiële gevolgen. BESLUIT eenparig: Art.1.- De agendapunten van de algemene vergadering van De Voorkempen HE van 2 mei 2019 worden, goedgekeurd:1. Verwelkoming en voorwoord2. Kennisname van het verslag van de leden van de raad van bestuur aan de aandeelhouders over het werkjaar 2018;•          a. Toelichting door directeur•          b. Toelichting door SBB3. Kennisname van het verslag van de commissaris;4. Goedkeuring verlenen aan de jaarrekening;5. Goedkeuring verlenen aan de resultatenverwerking;6. Kwijting verlenen aan de commissaris;7. Ontheffing verlenen aan de bestuurders voor hun opdracht gedurende het boekjaar 2018;8. Herbenoemen van één vervallen mandaat:•          Rudi Van Loon, Particulier•          Ludo De Roover, Particulier9. Benoemen van nieuwe bestuurders voor:•          Gemeente en OCMW Brasschaat: nog in te vullen•          Gemeente en OCMW Brecht: dhr. Daan de Veuster•          Gemeente en OCMW Schilde: dhr. Hendrik Bellens•          Gemeente en OCMW Wuustwezel: mevr. Mai Van Thillo•          Gemeente en OCMW Zoersel: mevr. Cindy Van Paesschen•          Provincie Antwerpen: dhr. Koen Palinckx Het is nodig om een vertegenwoordiger namens gemeente en OCMW Brasschaat voor te stellen voor de algemene vergadering en een kandidaat bestuurder en de agendapunten van de vergadering goed te keuren. Art.2.- Hedwig van Baarle wordt aangeduid als vertegenwoordiger van Gemeente en OCMW Brasschaat, met als plaatsvervanger Carla Pantens. Deze wordt gemandateerd om op de algemene vergaderingen van De Voorkempen HE te handelen en te beslissen conform dit besluit.  Art.3.- Erwin Callens wordt voorgedragen als kandidaat-lid voor de raad van bestuur van de cvba De Voorkempen HE, voor de legislatuur 2019-2024.  ";
+   <http://data.europa.eu/eli/ontology#language> <http://publications.europa.eu/resource/authority/language/NLD>;
+   <http://data.europa.eu/eli/ontology#title> "Besluit";
+   <http://www.w3.org/ns/prov#value> """
+                                  2 De Voorkempen. Aanduiding bestuurder. Goedkeuring. - GOEDGEKEURD  Beslissing  Feiten en motiveringGemeente en OCMW Brasschaat zijn lid van de sociale huisvestingsmaatschappij CVBA De Voorkempen - HE. Gemeente en OCMW zijn vertegenwoordigd in de raad van bestuur van De Voorkempen HE. Op 2 mei 2019 is er een algemene vergadering van De Voorkempen HE. De agenda ziet eruit als volgt:1. Verwelkoming en voorwoord2. Kennisname van het verslag van de leden van de raad van bestuur aan de aandeelhouders over het werkjaar 2018;•          a. Toelichting door directeur•          b. Toelichting door SBB3. Kennisname van het verslag van de commissaris;4. Goedkeuring verlenen aan de jaarrekening;5. Goedkeuring verlenen aan de resultatenverwerking;6. Kwijting verlenen aan de commissaris;7. Ontheffing verlenen aan de bestuurders voor hun opdracht gedurende het boekjaar 2018;8. Herbenoemen van één vervallen mandaat:•          Rudi Van Loon, Particulier•          Ludo De Roover, Particulier9. Benoemen van nieuwe bestuurders voor:•          Gemeente en OCMW Brasschaat: nog in te vullen•          Gemeente en OCMW Brecht: dhr. Daan de Veuster•          Gemeente en OCMW Schilde: dhr. Hendrik Bellens•          Gemeente en OCMW Wuustwezel: mevr. Mai Van Thillo•          Gemeente en OCMW Zoersel: mevr. Cindy Van Paesschen•          Provincie Antwerpen: dhr. Koen Palinckx Op 25 februari besliste de raad om nog geen vertegenwoordiger namens het lokaal bestuur Brasschaat voor te stellen. Het is nodig om een vertegenwoordiger namens gemeente en OCMW Brasschaat voor te stellen voor de algemene vergadering en een kandidaat bestuurder en de agendapunten van de vergadering goed te keuren. Juridisch kaderArtikel 386 van het Decreet Lokaal Bestuur. Financiële gevolgenEr zijn geen financiële gevolgen. BESLUIT eenparig: Art.1.- De agendapunten van de algemene vergadering van De Voorkempen HE van 2 mei 2019 worden, goedgekeurd:1. Verwelkoming en voorwoord2. Kennisname van het verslag van de leden van de raad van bestuur aan de aandeelhouders over het werkjaar 2018;•          a. Toelichting door directeur•          b. Toelichting door SBB3. Kennisname van het verslag van de commissaris;4. Goedkeuring verlenen aan de jaarrekening;5. Goedkeuring verlenen aan de resultatenverwerking;6. Kwijting verlenen aan de commissaris;7. Ontheffing verlenen aan de bestuurders voor hun opdracht gedurende het boekjaar 2018;8. Herbenoemen van één vervallen mandaat:•          Rudi Van Loon, Particulier•          Ludo De Roover, Particulier9. Benoemen van nieuwe bestuurders voor:•          Gemeente en OCMW Brasschaat: nog in te vullen•          Gemeente en OCMW Brecht: dhr. Daan de Veuster•          Gemeente en OCMW Schilde: dhr. Hendrik Bellens•          Gemeente en OCMW Wuustwezel: mevr. Mai Van Thillo•          Gemeente en OCMW Zoersel: mevr. Cindy Van Paesschen•          Provincie Antwerpen: dhr. Koen Palinckx Het is nodig om een vertegenwoordiger namens gemeente en OCMW Brasschaat voor te stellen voor de algemene vergadering en een kandidaat bestuurder en de agendapunten van de vergadering goed te keuren. Art.2.- Hedwig van Baarle wordt aangeduid als vertegenwoordiger van Gemeente en OCMW Brasschaat, met als plaatsvervanger Carla Pantens. Deze wordt gemandateerd om op de algemene vergaderingen van De Voorkempen HE te handelen en te beslissen conform dit besluit.  Art.3.- Erwin Callens wordt voorgedragen als kandidaat-lid voor de raad van bestuur van de cvba De Voorkempen HE, voor de legislatuur 2019-2024.
+                            """ .
+<https://brasschaat.meetingburger.net/UserData/MeetingBurger/Bijlagen/f4ff657c-7096-4483-9925-1fdd4b5d36ab/b61d7a6f-f164-4511-990d-81d18326f811/Uitnodiging_gemeente.pdf>
+   rdf:type foaf:Document;
+   dc:title "Uitnodiging gemeente" .
+<https://brasschaat.meetingburger.net/UserData/MeetingBurger/Bijlagen/f4ff657c-7096-4483-9925-1fdd4b5d36ab/b61d7a6f-f164-4511-990d-81d18326f811/Uitnodiging_OCMW.pdf>
+   rdf:type foaf:Document;
+   dc:title "Uitnodiging OCMW" .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#puntbehandeling931d14d1-3685-4f1d-a57d-b726212b4ffd>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+   <http://data.vlaanderen.be/ns/besluit#openbaar> "true"^^xsd:boolean;
+   <http://data.vlaanderen.be/ns/besluit#gebeurtNa> <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#b61d7a6f-f164-4511-990d-81d18326f811>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/24bee8db-2ef4-485d-b143-4fa3d7c76fb3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/68836e20-2ef4-4995-b53f-8c7e88f4341c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d34b0e9f-4e17-4614-a659-593d1760c7f3>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/1668700f-8937-4085-aaa5-ca10c09f5270>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5367c931-1d71-45b1-b342-8a1703815e44>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5bf481ba-b8c5-4108-b281-e224fa808cf6>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/61a1f61e-daeb-430b-bd55-19b1521175ca>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/cd869d11-321e-4995-9b2a-a5bc634db759>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/59296cc7-de4d-4b65-9937-667cea7381d1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a34117a6-ad93-4cea-bd2b-d5df077f4dbc>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/b0f8d54c-b544-44ca-9fdd-9a603abd1fc8>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0000866e-7e57-46de-ac76-7ef23a5f550d>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/efb0b071-b392-467e-9830-90e4aa11a74e>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/b1f7951b-ca23-415c-848a-054eedadc7ae>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/e63fd383-d732-4194-adff-77ffd4b84737>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/3768d7ba-365d-4522-9e2c-9524bc7e3bee>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/178bfe46-d884-4014-834f-8e65ca6a7cfa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d63f1679-930b-43a4-a45b-6bbdbdc8a6fa>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/fbc9805c-e5b4-43fc-9c54-392e769ed699>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/6a772b82-63cc-4e28-92ab-37d5542e2580>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/bb65c5a1-c674-47fd-b282-1b351a21f834>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/e11f34d3-7bb5-419f-b93e-f9fc62d7119c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/8210a3ce-9f66-4c70-bb3b-74e4a75588d1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/0a1e4281-07ec-427a-af03-326aaee3b63c>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/d249a473-13a9-4c98-bc9f-9e36f45831cd>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/2ffbe33e-0fb4-45de-b82b-ddadc970cca9>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a1985d63-4fbe-4d1b-b045-1e49a03ff003>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/4b87b14e-5508-4e45-95d3-95a4406d8fb1>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/a9934baf-7545-476b-b320-d75a41df84ae>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/9b5b0c56-bf65-4700-9c7a-d55e35ff47e2>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/5f3e3ad5-7414-4616-a084-a4255b42dcb9>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/262ec05d-32f5-4170-8d25-e468f340cd23>;
+   <http://data.vlaanderen.be/ns/besluit#heeftAanwezige> <https://brasschaat.meetingburger.net/mandatarissen/1f2c1571-724a-4671-918f-3e92d447cdea>;
+   <http://data.vlaanderen.be/ns/besluit#heeftSecretaris> <https://brasschaat.meetingburger.net/mandatarissen/1668700f-8937-4085-aaa5-ca10c09f5270>;
+   <http://data.vlaanderen.be/ns/besluit#heeftVoorzitter> <https://brasschaat.meetingburger.net/mandatarissen/178bfe46-d884-4014-834f-8e65ca6a7cfa>;
+   dc:subject <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#931d14d1-3685-4f1d-a57d-b726212b4ffd>;
+   <http://www.w3.org/ns/prov#generated> <https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#puntbesluit931d14d1-3685-4f1d-a57d-b726212b4ffd> .
+<https://brasschaat.meetingburger.net/rmw/f4ff657c-7096-4483-9925-1fdd4b5d36ab/notulen#puntbesluit931d14d1-3685-4f1d-a57d-b726212b4ffd>
+   rdf:type <http://data.vlaanderen.be/ns/besluit#Besluit>;
+   <http://data.europa.eu/eli/ontology#description> "  3 Stand van zaken organisatiebeheersing. Kennisneming. - KENNISGENOMEN  Beslissing  Het Decreet Lokaal bestuur schrijft voor dat vanaf 2019 de algemeen directeur jaarlijks uiterlijk op 30 juni een globale rapportering voorziet over organisatiebeheersing (art.217 tot en met 220 van het decreet Lokaal bestuur). Een dergelijk rapport bevat  ook de stand van zaken betreffende de uitvoering van aanbevelingen die voortkwamen uit diverse doorlichtingen waaronder Audit Vlaanderen en POD Maatschappelijke Integratie. 1. OrganisatiebeheersingssysteemZoals voorgeschreven door het decreet Lokaal bestuur keurde op 25 februari 2019 zowel de raad voor maatschappelijk welzijn als de gemeenteraad het algemeen kader voor organisatiebeheersing goed. 2. Interne doorlichtingenA. ZelfevaluatieIn het kader van organisatiebeheersing voerde de dienst organisatieontwikkeling eind 2016 – begin 2017 een zelf-evaluatie uit waarin alle afdelingen betrokken waren.Het managementteam stelde op basis van de resultaten een actieplan op.De eerstvolgende zelf-evaluatie vindt plaats in 2021. B. AfdelingsauditsVanaf juni 2019 tot en met december 2020 voert de afdeling organisatieontwikkeling op alle afdelingen een audit uit naar het beheer van de kernprocessen en de projecten.  3. Externe doorlichtingenA. Audit Vlaanderen Organisatie-audit In de periode februari 2018 – april 2018 voerde Audit Vlaanderen een audit uit in gemeente en OCMWBrasschaat. Op 28 juni 2018 werd door Audit Vlaanderen een volledig rapport ter beschikking gesteld. Dit rapport werd conform de geldende regelgeving ondertussen bezorgd aan de voorzitter van de gemeenteraad en de voorzitter van de OCMW raad die het rapport op hun beurt verder verspreid hebben aan respectievelijk de gemeenteraad en de OCMW raad.In dit rapport formuleerde Audit Vlaanderen 4 aanbevelingen. Het Management-team op haar beurt formuleerde een plan van aanpak om hieraan tegemoet te komen. N.a.v. de brief van Vlaams minister van binnenlands bestuur Homans die het gemeentebestuur en OCMW Brasschaat op 19 juli 2018 ontvingen over dit rapport, nodigde de gouverneur van de provincie Antwerpen op 3 september 2018 hen uit voor een gesprek over het rapport en het plan van aanpak. Een datum voor een vervolggesprek in de loop van april wordt nog ingepland. B. Inspectie POD Maatschappelijke integratieOp 6 maart 2019 voerde de inspectiedienst van de POD Maatschappelijke integratie een inspectie uit en maakte hierover een inspectieverslag op met de resultaten en aanbevelingen.  De raad voor maatschappelijk welzijn neemt kennis van de stand van zaken van het organisatiebeheerssysteem.  ";
+   <http://data.europa.eu/eli/ontology#language> <http://publications.europa.eu/resource/authority/language/NLD>;
+   <http://data.europa.eu/eli/ontology#title> "Besluit";
+   <http://www.w3.org/ns/prov#value> """
+                                  3 Stand van zaken organisatiebeheersing. Kennisneming. - KENNISGENOMEN  Beslissing  Het Decreet Lokaal bestuur schrijft voor dat vanaf 2019 de algemeen directeur jaarlijks uiterlijk op 30 juni een globale rapportering voorziet over organisatiebeheersing (art.217 tot en met 220 van het decreet Lokaal bestuur). Een dergelijk rapport bevat  ook de stand van zaken betreffende de uitvoering van aanbevelingen die voortkwamen uit diverse doorlichtingen waaronder Audit Vlaanderen en POD Maatschappelijke Integratie. 1. OrganisatiebeheersingssysteemZoals voorgeschreven door het decreet Lokaal bestuur keurde op 25 februari 2019 zowel de raad voor maatschappelijk welzijn als de gemeenteraad het algemeen kader voor organisatiebeheersing goed. 2. Interne doorlichtingenA. ZelfevaluatieIn het kader van organisatiebeheersing voerde de dienst organisatieontwikkeling eind 2016 – begin 2017 een zelf-evaluatie uit waarin alle afdelingen betrokken waren.Het managementteam stelde op basis van de resultaten een actieplan op.De eerstvolgende zelf-evaluatie vindt plaats in 2021. B. AfdelingsauditsVanaf juni 2019 tot en met december 2020 voert de afdeling organisatieontwikkeling op alle afdelingen een audit uit naar het beheer van de kernprocessen en de projecten.  3. Externe doorlichtingenA. Audit Vlaanderen Organisatie-audit In de periode februari 2018 – april 2018 voerde Audit Vlaanderen een audit uit in gemeente en OCMWBrasschaat. Op 28 juni 2018 werd door Audit Vlaanderen een volledig rapport ter beschikking gesteld. Dit rapport werd conform de geldende regelgeving ondertussen bezorgd aan de voorzitter van de gemeenteraad en de voorzitter van de OCMW raad die het rapport op hun beurt verder verspreid hebben aan respectievelijk de gemeenteraad en de OCMW raad.In dit rapport formuleerde Audit Vlaanderen 4 aanbevelingen. Het Management-team op haar beurt formuleerde een plan van aanpak om hieraan tegemoet te komen. N.a.v. de brief van Vlaams minister van binnenlands bestuur Homans die het gemeentebestuur en OCMW Brasschaat op 19 juli 2018 ontvingen over dit rapport, nodigde de gouverneur van de provincie Antwerpen op 3 september 2018 hen uit voor een gesprek over het rapport en het plan van aanpak. Een datum voor een vervolggesprek in de loop van april wordt nog ingepland. B. Inspectie POD Maatschappelijke integratieOp 6 maart 2019 voerde de inspectiedienst van de POD Maatschappelijke integratie een inspectie uit en maakte hierover een inspectieverslag op met de resultaten en aanbevelingen.  De raad voor maatschappelijk welzijn neemt kennis van de stand van zaken van het organisatiebeheerssysteem.
+                            """ .
